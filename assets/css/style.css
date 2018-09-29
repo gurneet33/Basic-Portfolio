@@ -1,0 +1,108 @@
+#header {
+    float:left;
+    width: 100%;
+}
+
+#name {
+    border:  0 solid #4aaaa5;
+    background-color:#4aaaa5 ;
+    position: absolute;
+    width: 150px;
+    height:50px;
+    left: 182px;
+    margin-top: 10;
+    padding-top: 20;
+    text-align: center;
+    color: white;
+    top:16px;
+    padding: 20px 10px 10px 10px;
+}
+
+#header ul {
+    float: right;
+    margin-right: 20%;
+    line-height: 16px
+}
+
+#header ul li {
+    display: inline-block;
+    line-height: 50px; 
+    text-align: center;
+    cursor: pointer;
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+        }  
+
+a:hover {
+    color:pink;
+}  
+
+#bor {
+    border-right: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+    padding: 0px 4px;
+}
+
+.container {
+    position: relative;
+    float:left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#backdrop {
+    border: 0px solid gray;
+    margin-top: 0px;
+    border-bottom: 0px solid #4aaaa5;
+    /* margin-bottom: 0px; */
+    height: 620px;
+}
+
+.text-block {
+    border: 0.5px solid #dddddd;
+    padding: 4px;
+    position: absolute;
+    width: 60%;
+    height: 350px ;
+    top: 10%;
+    left: 180px;
+    /* right: 50%; */
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3{
+    padding-bottom: 7px;
+    border-bottom: 2px solid darkgray;
+    color: #4aaaa5;
+}
+#mypic {
+    margin: 0px 10px;
+    float: left;
+}
+
+
+
+#footer  {
+    background-color: #666666;
+    color:white;
+    /* position:sticky; */
+    margin: 0px;
+    float:left;
+    width: 100%;
+    margin-bottom: 0px;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    height: 30px;
+}
+h4  {
+    margin: 0px;
+    padding-top: 6px;
+    }
