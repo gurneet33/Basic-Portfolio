@@ -57,11 +57,12 @@ a:hover {
 }
 
 #backdrop {
+    float:left;
+    width:100%;
     border: solid #dddd;
     border: 1px 1px 0px 1px; 
     margin-top: 0px;
     border-bottom: 0px solid #4aaaa5;
-    /* margin-bottom: 0px; */
     height: 700px;
 }
 
