@@ -7,7 +7,7 @@
     border:  0 solid #4aaaa5;
     background-color:#4aaaa5 ;
     position: absolute;
-    width: 150px;
+    width: 185px;
     height:50px;
     left: 182px;
     margin-top: 10;
@@ -15,7 +15,8 @@
     text-align: center;
     color: white;
     top:16px;
-    padding: 20px 10px 10px 10px;
+    padding: 20px;
+    padding-bottom: 62px;
 }
 
 #header ul {
@@ -63,7 +64,7 @@ a:hover {
     border: 1px 1px 0px 1px; 
     margin-top: 0px;
     border-bottom: 0px solid #4aaaa5;
-    height: 700px;
+    height: 750px;
 }
 
 .text-block {
@@ -117,6 +118,8 @@ h4  {
     cursor: pointer;
 }
 
+   /* css for contact page */
+
 input[type=text], input[type=email], select{
     width: 100%;
     padding: 12px 20px;
@@ -127,6 +130,44 @@ input[type=text], input[type=email], select{
 }
         
 #msg  {
-        padding-bottom: 110px;
+    padding-bottom: 110px;
 }
+
+     /* css for portfolio page */
     
+
+    * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    position: relative;
+    margin:10px 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.def {
+    position: absolute;
+    bottom: 25px;
+    background-color: #4aaaa5;
+    color:white;
+    width:100%;
+    /* margin:10px 25px;  */
+
+}
+
+.tag{
+    padding: 20px 68px;
+}
+
+
+
